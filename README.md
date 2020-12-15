@@ -4,6 +4,7 @@ docker-nginx180-php72
 # file => conf.d/default.conf
 
 #least_conn;     #uncomment no persistent connection nodejs
+
 #hash $remote_addr consistent; #uncomment persistent connection php session
 
 # run 
