@@ -8,16 +8,16 @@ docker nginx-1.18.0 php72
 #hash $remote_addr consistent; #uncomment persistent connection php session
 
 # run 
-docker-compose up -d
+  docker-compose up -d
 
 # stop 
-docker-compose stop 
+  docker-compose stop 
 
 # restart
-docker-compose restart
+  docker-compose restart
 
 # shutdown
-docker-compose down
+  docker-compose down
 
 # URL
 http://localhost:7000
