@@ -1,5 +1,5 @@
-# docker-nginx180-php72
-docker-nginx180-php72
+# docker nginx-1.18.0 php72
+docker nginx-1.18.0 php72
 
 # file => conf.d/default.conf
 
