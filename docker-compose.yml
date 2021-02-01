@@ -3,6 +3,7 @@ version: '3'
 services:
   php1:
     container_name: php1
+    # image: wachira90/php:7.2
     image: php:7.2-fpm-alpine
     restart: unless-stopped
     volumes:
@@ -35,7 +36,7 @@ services:
       - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf:ro
     expose:
       - 9000
-      
+
   php4:
     container_name: php4
     # image: wachira90/php:7.2
@@ -59,7 +60,7 @@ services:
       - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf:ro
     expose:
       - 9000
-      
+
   php6:
     container_name: php6
     # image: wachira90/php:7.2
@@ -112,3 +113,6 @@ services:
 
 networks:
   default:
+#    external:
+#      name:
+#        web_network
