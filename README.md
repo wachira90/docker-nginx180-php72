@@ -24,4 +24,4 @@ http://localhost:7000
 http://localhost:7000/info.php
 
 # modby => wachira90@yahoo.com
-# docker-nginx180-php72-normal
+# docker-nginx180-php72
