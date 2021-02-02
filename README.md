@@ -21,6 +21,7 @@ docker nginx-1.18.0 php72
 
 # URL
 http://localhost:7000
+
 http://localhost:7000/info.php
 
 # modby => wachira90@yahoo.com
