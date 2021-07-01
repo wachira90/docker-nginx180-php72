@@ -3,26 +3,35 @@ docker nginx-1.18.0 php72
 
 # file => conf.d/default.conf
 
+```
 #least_conn;     #uncomment no persistent connection nodejs
+```
 
 #hash $remote_addr consistent; #uncomment persistent connection php session
 
-# run 
+## run 
+```
   docker-compose up -d
+```
 
-# stop 
+## stop 
+```
   docker-compose stop 
-
-# restart
+```
+## restart
+```
   docker-compose restart
-
-# shutdown
+```
+## shutdown
+```
   docker-compose down
-
-# URL
+```
+## url
+```
 http://localhost:7000
 
 http://localhost:7000/info.php
+```
+### modby => wachira90@yahoo.com
 
-# modby => wachira90@yahoo.com
-# docker-nginx180-php72
+### docker-nginx180-php72
