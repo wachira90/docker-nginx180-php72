@@ -16,6 +16,14 @@ docker nginx-1.18.0 php72
 #hash $remote_addr consistent; 
 ```
 
+## change php version 
+```
+image: wachira90/php:7.1
+image: wachira90/php:7.2
+image: wachira90/php:7.3
+image: wachira90/php:7.4    
+```
+
 ## run 
 
 ```
