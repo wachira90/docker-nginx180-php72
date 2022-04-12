@@ -48,14 +48,20 @@ image: wachira90/php:7.4
   docker-compose down
 ```
 
-## url
+## url http
 
 ```
 http://localhost:7000
-
 http://localhost:7000/info.php
 ```
 
-### modby => wachira90@yahoo.com
+## url https ssl
+
+```
+http://localhost:4443
+http://localhost:4443/info.php
+```
+
+### modby => https://github.com/wachira90
 
 ### docker-nginx180-php72
